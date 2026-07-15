@@ -2,7 +2,19 @@
 
 Este repositório contém o site institucional da **Escola Municipal João Corso**.
 
-O objetivo é oferecer uma experiência moderna, acessível e informativa para a comunidade escolar, trazendo o conteúdo do site atual ([joaocorso.net.br](http://joaocorso.net.br/)) de forma mais atualizada e responsiva.
+## ✨ O que o site oferece
+
+- Apresentação da escola na página inicial, com destaque para a missão e o convite para contato.
+- Seção institucional com um resumo da história e da trajetória da escola.
+- Informações de contato, endereço, horário de atendimento e localização.
+- Acesso rápido ao WhatsApp e às redes sociais da escola.
+- Estrutura preparada para evoluir com novas páginas e conteúdos institucionais.
+
+## 🎯 Objetivos do projeto
+
+- Modernizar a presença digital da Escola Municipal João Corso.
+- Facilitar o acesso a informações institucionais, comunicados e contatos.
+- Tornar o site acessível e responsivo para toda a comunidade.
 
 ---
 
@@ -19,6 +31,8 @@ Em construção
 - TypeScript
 - Tailwind CSS
 - Vitest
+- Storybook
+- Plop Generator
 
 ---
 
@@ -81,16 +95,32 @@ http://localhost:6006
 
 ---
 
-## 🎯 Objetivos do projeto
+## 🧱 Como criar novas páginas e componentes com o Plop
 
-- Modernizar a presença digital da Escola Municipal João Corso
-- Facilitar o acesso a informações institucionais, comunicados e contatos
-- Tornar o site acessível e responsivo para toda a comunidade
+Este projeto já possui o Plop configurado para gerar arquivos seguindo a estrutura existente. Use o comando abaixo para iniciar o gerador:
+
+```bash
+npm run generate
+```
+
+Ao executar o comando, escolha uma das opções disponíveis:
+
+- `page`: cria uma nova página em `app/<nome-da-pagina>/`
+- `component`: cria um novo componente em `src/components/<NomeDoComponente>/`
 
 ---
 
-Refatorado como parte da iniciativa [Lumus Digital](https://lumus-digital.dev.br/)
+## 🔮 To-do
+
+Avaliar melhorias futuras como:
+
+- VLibras
+- Tradução dos textos
+- Uso de um CMS para gerenciar o carrossel e outros conteúdos institucionais
+- Integração com Google Analytics.
 
 ---
 
-Feito com dedicação para a comunidade escolar. ✨
+## 🤝 Iniciativa
+
+Refatorado como parte da iniciativa [Lumus Digital](https://lumus-digital.dev.br/), feito com dedicação para a comunidade escolar.

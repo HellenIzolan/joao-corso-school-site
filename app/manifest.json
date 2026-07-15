@@ -1,0 +1,33 @@
+{
+  "name": "Escola Municipal João Corso",
+  "short_name": "EMEF João Corso",
+  "description": "Site oficial da Escola Municipal João Corso, localizada em Serafina Corrêa/RS. Oferecemos ensino fundamental de qualidade.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#16a34a",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/logo-escola-joao-corso.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/logo-escola-joao-corso.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education"],
+  "lang": "pt-BR",
+  "dir": "ltr",
+  "scope": "/"
+}

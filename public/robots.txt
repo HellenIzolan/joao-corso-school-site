@@ -1,0 +1,12 @@
+# Escola Municipal João Corso - Robots.txt
+# Permite indexação de todos os crawlers de busca
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.joaocorso.net.br/sitemap.xml
+
+# Bloquear acesso a arquivos específicos
+Disallow: /api/
+Disallow: /_next/static/
